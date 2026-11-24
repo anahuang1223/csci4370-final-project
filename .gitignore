@@ -1,0 +1,31 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Java / Spring Boot
+target/
+*.class
+*.jar
+.idea/
+*.iml
+
+# React / Node.js
+node_modules/
+dist/
+.vite/
+
+# IDE
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# User-uploaded files
+uploads/
